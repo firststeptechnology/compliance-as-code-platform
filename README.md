@@ -43,21 +43,15 @@ Typical use cases include:
 
 ---
 
-# Commercial Rule Libraries
+## Commercial Rule Libraries
 
-| Framework | Status | Documentation |
-|-----------|--------|---------------|
-| FAR 52.204-21 Basic Safeguarding Requirements | ✅ Available | [View Documentation](docs/far-52-204-21.md) |
-| NIST SP 800-171 Rev. 2 | ✅ Available | Coming Soon |
-| CMMC Level 1 | 🚧 In Development | Planned |
-| CMMC Level 2 | 📅 Planned | Planned |
-| NIST SP 800-53 | 📅 Planned | Planned |
-| NIST Cybersecurity Framework (CSF) 2.0 | 📅 Planned | Planned |
-| NIST AI Risk Management Framework | 📅 Planned | Planned |
-| HIPAA Security Rule | 📅 Planned | Planned |
-| PCI DSS | 📅 Planned | Planned |
-| SOC 2 | 📅 Planned | Planned |
-| ISO/IEC 27001 | 📅 Planned | Planned |
+| Product | Coverage | Status | Documentation | Purchase |
+|---------|----------|--------|---------------|----------|
+| **CMMC Level 1 Compliance-as-Code Rule Library (FAR 52.204-21)** | All 15 Basic Safeguarding Requirements | ✅ Available | [View Documentation](docs/far-52-204-21.md) | [Purchase](https://firststeptechnologyllc.com/product/cmmc-level-1-compliance-as-code-rule-library/) |
+| **NIST SP 800-171 Rev. 2 Compliance-as-Code Rule Library** | All 110 Security Requirements across 14 Requirement Families | ✅ Available | [View Documentation](docs/nist-sp-800-171-rev-2.md) | [Purchase](https://firststeptechnologyllc.com/product/nist-800-171-rev-2-compliance-as-code-rule-library/) |
+| **Future Compliance-as-Code Products** | CMMC Level 2, NIST SP 800-53, NIST CSF 2.0, HIPAA, PCI DSS, ISO/IEC 27001, and more | 🚧 In Development | Planned | Coming Soon |
+
+> **Commercial Products:** Complete rule libraries are available for purchase through the First Step Technology LLC website. Public documentation and sample artifacts contained in this repository are intentionally limited and do not include the complete commercial rule libraries.
 
 ---
 
