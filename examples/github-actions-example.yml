@@ -1,0 +1,39 @@
+name: Validate Compliance Rule
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install jsonschema
+        run: |
+          python -m pip install --upgrade pip
+          pip install jsonschema
+
+      - name: Validate Example Rule
+        run: |
+          python - <<'PYTHON'
+          import json
+          from jsonschema import validate
+
+          with open("docs/schemas/compliance-rule.schema.json", encoding="utf-8") as schema_file:
+              schema = json.load(schema_file)
+
+          with open("docs/examples/compliance-rule-example.json", encoding="utf-8") as example_file:
+              example = json.load(example_file)
+
+          validate(instance=example, schema=schema)
+
+          print("Compliance rule validated successfully.")
+          PYTHON
