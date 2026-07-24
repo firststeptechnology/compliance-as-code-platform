@@ -1,0 +1,26 @@
+{
+  "evidence_id": "EV-2026-000001",
+  "control_id": "AC-2",
+  "framework": "NIST SP 800-53 Rev. 5",
+  "evidence_type": "configuration",
+  "status": "validated",
+  "collected_at": "2026-07-24T14:30:00Z",
+  "expires_at": "2027-07-24T14:30:00Z",
+  "source": "AWS IAM",
+  "owner": "Security Operations",
+  "description": "Configuration evidence demonstrating account management controls.",
+  "artifacts": [
+    {
+      "name": "iam-account-settings.json",
+      "type": "configuration-export",
+      "location": "s3://example-compliance-bucket/evidence/iam-account-settings.json",
+      "checksum": "sha256:8a7f2f7d2d6e0c5f4d5d7f90c8f3b2d4f5c7e8a9b0c1d2e3f4a5b6c7d8e9f0a1"
+    },
+    {
+      "name": "account-management-policy.pdf",
+      "type": "policy-document",
+      "location": "https://example.org/policies/account-management-policy.pdf"
+    }
+  ],
+  "notes": "Evidence validated during the quarterly compliance review."
+}
