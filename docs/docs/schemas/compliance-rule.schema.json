@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://firststeptechnologyllc.com/schemas/compliance-rule.schema.json",
+  "title": "Compliance Rule",
+  "description": "Public schema describing a machine-readable compliance rule used by the First Step Technology LLC Compliance-as-Code Platform.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "framework",
+    "control_id",
+    "title",
+    "guidance",
+    "agent_instruction",
+    "metadata"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version."
+    },
+    "framework": {
+      "type": "string",
+      "description": "Compliance framework name."
+    },
+    "control_id": {
+      "type": "string",
+      "description": "Unique control or requirement identifier."
+    },
+    "title": {
+      "type": "string",
+      "description": "Control title."
+    },
+    "guidance": {
+      "type": "string",
+      "description": "Human-readable implementation guidance."
+    },
+    "agent_instruction": {
+      "type": "string",
+      "description": "Instruction intended for AI agents or automation workflows."
+    },
+    "references": {
+      "type": "array",
+      "description": "Optional external references.",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "tags": {
+      "type": "array",
+      "description": "Optional classification tags.",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "family",
+        "version",
+        "status"
+      ],
+      "properties": {
+        "family": {
+          "type": "string",
+          "description": "Control family or category."
+        },
+        "version": {
+          "type": "string",
+          "description": "Framework publication version."
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "deprecated",
+            "draft"
+          ],
+          "description": "Lifecycle status."
+        },
+        "priority": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "critical"
+          ]
+        },
+        "automation_ready": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    }
+  }
+}
