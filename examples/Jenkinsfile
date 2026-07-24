@@ -1,0 +1,68 @@
+pipeline {
+
+    agent any
+
+    environment {
+        PYTHON_VERSION = "3.12"
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh '''
+                python3 -m pip install --upgrade pip
+                pip install jsonschema
+                '''
+            }
+        }
+
+        stage('Validate Compliance Rule') {
+            steps {
+                sh '''
+python3 <<'PYTHON'
+import json
+from jsonschema import validate
+
+with open("docs/schemas/compliance-rule.schema.json", encoding="utf-8") as schema_file:
+    schema = json.load(schema_file)
+
+with open("docs/examples/compliance-rule-example.json", encoding="utf-8") as example_file:
+    example = json.load(example_file)
+
+validate(instance=example, schema=schema)
+
+print("Compliance validation completed successfully.")
+PYTHON
+'''
+            }
+        }
+
+        stage('Complete') {
+            steps {
+                echo 'Compliance-as-Code validation finished successfully.'
+            }
+        }
+    }
+
+    post {
+
+        success {
+            echo 'Pipeline completed successfully.'
+        }
+
+        failure {
+            echo 'Pipeline failed.'
+        }
+
+        always {
+            archiveArtifacts artifacts: 'docs/examples/*', fingerprint: true
+        }
+    }
+}
