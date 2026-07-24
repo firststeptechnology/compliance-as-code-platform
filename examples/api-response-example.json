@@ -1,0 +1,25 @@
+{
+  "api_version": "1.0.0",
+  "status": "success",
+  "timestamp": "2026-07-24T15:00:00Z",
+  "data": {
+    "framework": "NIST SP 800-53 Rev. 5",
+    "control": {
+      "control_id": "AC-2",
+      "title": "Account Management",
+      "guidance": "Manage information system accounts throughout their lifecycle.",
+      "agent_instruction": "Verify documented account lifecycle procedures are implemented and periodically reviewed.",
+      "metadata": {
+        "family": "Access Control",
+        "version": "Rev. 5",
+        "status": "active",
+        "priority": "high",
+        "automation_ready": true
+      }
+    }
+  },
+  "links": {
+    "documentation": "https://firststeptechnologyllc.com/compliance-as-code-compliance-automation/",
+    "website": "https://firststeptechnologyllc.com"
+  }
+}
