@@ -1,0 +1,42 @@
+name: Python Example Tests
+
+on:
+  push:
+    paths:
+      - "docs/examples/**"
+      - ".github/workflows/python-example-tests.yml"
+  pull_request:
+    paths:
+      - "docs/examples/**"
+      - ".github/workflows/python-example-tests.yml"
+
+jobs:
+  test-python-examples:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: docs/examples
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate sample compliance rule
+        run: python validate-rule.py
+
+      - name: Search sample controls
+        run: python search-controls.py
+
+      - name: Generate sample report
+        run: python generate-report.py
