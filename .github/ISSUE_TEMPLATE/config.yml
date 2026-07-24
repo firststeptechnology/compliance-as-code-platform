@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Documentation
+    url: https://github.com/FirstStepTechnologyLLC/compliance-as-code-platform/tree/main/docs
+    about: Review the documentation before opening an issue.
+
+  - name: Compliance-as-Code Platform
+    url: https://firststeptechnologyllc.com/compliance-as-code-compliance-automation/
+    about: Learn more about the Compliance-as-Code Platform.
+
+  - name: First Step Technology LLC
+    url: https://firststeptechnologyllc.com
+    about: Visit the company website.
