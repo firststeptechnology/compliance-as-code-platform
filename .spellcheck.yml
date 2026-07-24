@@ -1,0 +1,37 @@
+matrix:
+  - name: Markdown
+    sources:
+      - "**/*.md"
+
+dictionary:
+  wordlists:
+    - en_US
+
+excludes:
+  - ".git"
+  - "node_modules"
+  - ".github"
+
+ignore:
+  - DevSecOps
+  - Compliance-as-Code
+  - FirstStepTechnologyLLC
+  - FirstStepTechnology
+  - OpenAPI
+  - JSON
+  - YAML
+  - GitHub
+  - GitLab
+  - Terraform
+  - AuditBoard
+  - ServiceNow
+  - MetricStream
+  - NIST
+  - HIPAA
+  - CMMC
+  - CPRA
+  - CCPA
+  - SemVer
+  - UTF
+  - API
+  - SDK
