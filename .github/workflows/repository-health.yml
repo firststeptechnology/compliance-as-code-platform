@@ -1,0 +1,34 @@
+name: Repository Health
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 12 * * 1"
+
+jobs:
+  repository-health:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Count Markdown files
+        run: |
+          echo "Markdown Files:"
+          find . -name "*.md" | wc -l
+
+      - name: Count JSON files
+        run: |
+          echo "JSON Files:"
+          find . -name "*.json" | wc -l
+
+      - name: Count YAML files
+        run: |
+          echo "YAML Files:"
+          find . -name "*.yml" -o -name "*.yaml" | wc -l
+
+      - name: Repository Summary
+        run: |
+          echo "Repository health check completed successfully."
