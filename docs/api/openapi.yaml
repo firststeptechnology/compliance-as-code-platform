@@ -1,0 +1,148 @@
+openapi: 3.1.0
+
+info:
+  title: First Step Technology LLC Compliance-as-Code API
+  version: 1.0.0
+  description: >
+    Public demonstration API specification for the
+    First Step Technology LLC Compliance-as-Code Platform.
+
+servers:
+  - url: https://api.firststeptechnologyllc.com/v1
+
+tags:
+  - name: Frameworks
+  - name: Controls
+  - name: Schemas
+  - name: Examples
+
+paths:
+
+  /frameworks:
+    get:
+      tags:
+        - Frameworks
+      summary: List supported frameworks
+      responses:
+        "200":
+          description: Successful response
+
+  /frameworks/{framework}:
+    get:
+      tags:
+        - Frameworks
+      summary: Retrieve framework metadata
+      parameters:
+        - name: framework
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful response
+
+  /controls:
+    get:
+      tags:
+        - Controls
+      summary: Search controls
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful response
+
+  /controls/{controlId}:
+    get:
+      tags:
+        - Controls
+      summary: Retrieve a control
+      parameters:
+        - name: controlId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful response
+
+  /schemas:
+    get:
+      tags:
+        - Schemas
+      summary: List available JSON schemas
+      responses:
+        "200":
+          description: Successful response
+
+  /examples:
+    get:
+      tags:
+        - Examples
+      summary: List available examples
+      responses:
+        "200":
+          description: Successful response
+
+components:
+
+  schemas:
+
+    ComplianceRule:
+
+      type: object
+
+      properties:
+
+        control_id:
+          type: string
+
+        framework:
+          type: string
+
+        title:
+          type: string
+
+        guidance:
+          type: string
+
+        agent_instruction:
+          type: string
+
+    FrameworkMetadata:
+
+      type: object
+
+      properties:
+
+        framework:
+          type: string
+
+        publisher:
+          type: string
+
+        version:
+          type: string
+
+        rule_count:
+          type: integer
+
+    EvidenceRecord:
+
+      type: object
+
+      properties:
+
+        evidence_id:
+          type: string
+
+        control_id:
+          type: string
+
+        status:
+          type: string
