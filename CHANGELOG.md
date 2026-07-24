@@ -2,36 +2,74 @@
 
 All notable changes to this project will be documented in this file.
 
-This project follows Semantic Versioning (SemVer).
+The format is based on **Keep a Changelog**, and this project follows **Semantic Versioning (SemVer)**.
 
 ---
 
-## [1.0.0] - 2026-07-23
+## [Unreleased]
 
 ### Added
 
-- Initial GitHub repository
-- Repository documentation
-- Project README
-- LICENSE
-- DISCLAIMER
-- SECURITY policy
-- Documentation structure
-- Examples directory
-- FAR 52.204-21 product documentation
-- FAR 52.204-21 sample JSON
-- Frequently Asked Questions (FAQ)
-- Public Compliance-as-Code roadmap
+- Initial public repository documentation
+- Getting Started guide
+- Architecture documentation
+- Security Architecture
+- AI Architecture
+- Data Model
+- API documentation
+- OpenAPI specification
+- JSON Schemas
+- Developer examples
+- Integration guides
+- Framework documentation
+- Technical roadmap
+- Project roadmap
+- Commercial editions overview
+- Licensing documentation
+- Compatibility guide
+- FAQ
+- Developer FAQ
+- Contributing guide
+- Code of Conduct
+- Supported Versions policy
+- Project Status documentation
+- Compliance-as-Code overview
 
 ---
 
-## Future Releases
+## [1.0.0] - 2026-07-24
 
-Upcoming releases may include:
+### Added
 
-- NIST SP 800-171 documentation
-- Additional JSON examples
-- AI integration guides
-- GitHub Pages website
-- Versioned product documentation
-- Compliance automation examples
+- Initial public release of the Compliance-as-Code Platform repository.
+- Public documentation.
+- Machine-readable JSON schemas.
+- Example integrations.
+- Example automation workflows.
+- OpenAPI specification.
+- Reference implementation examples.
+- Repository governance documentation.
+
+---
+
+## Versioning
+
+This repository follows Semantic Versioning.
+
+- **MAJOR** — Breaking changes
+- **MINOR** — New features
+- **PATCH** — Bug fixes, documentation improvements, and minor updates
+
+---
+
+## Links
+
+- README
+- Roadmap
+- Technical Roadmap
+- Project Status
+- Supported Versions
+
+---
+
+© 2026 First Step Technology LLC. All rights reserved.
