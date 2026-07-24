@@ -1,134 +1,103 @@
 # Compliance-as-Code Product Catalog
 
-First Step Technology LLC develops commercial Compliance-as-Code rule libraries that transform cybersecurity and regulatory requirements into structured, machine-readable JSON.
+> Official commercial product catalog for the First Step Technology LLC Compliance-as-Code Platform.
 
-This repository provides public documentation, limited examples, schemas, and educational resources. Complete commercial rule libraries are distributed separately through the First Step Technology LLC website.
+This catalog provides an overview of the machine-readable Compliance-as-Code rule libraries currently available from First Step Technology LLC. Each library transforms authoritative regulatory or standards-based requirements into structured JSON suitable for AI assistants, DevSecOps pipelines, Governance, Risk & Compliance (GRC) platforms, and custom automation workflows.
 
----
-
-## Available Products
-
-### CMMC Level 1 Compliance-as-Code Rule Library  
-#### FAR 52.204-21 Basic Safeguarding Requirements
-
-**Price:** $250.00  
-**Status:** Available  
-**Format:** Digital Download  
-**Coverage:** All 15 FAR 52.204-21 Basic Safeguarding Requirements
-
-This commercial rule library converts the complete CMMC Level 1 requirement set into structured, machine-readable JSON.
-
-It is designed for:
-
-- Small defense subcontractors
-- MSPs supporting DoD-adjacent clients
-- Developers building compliance automation
-- AI coding assistants and agents
-- CI/CD compliance gates
-- GRC and internal assessment workflows
-
-The commercial package includes:
-
-- All 15 FAR 52.204-21 Basic Safeguarding Requirements
-- A documented JSON structure
-- Machine-actionable instructions
-- Regulatory provenance
-- Plain UTF-8 JSON
-- Instant digital delivery
-
-**Documentation:**  
-[View CMMC Level 1 / FAR 52.204-21 documentation](docs/far-52-204-21.md)
-
-**Public Sample:**  
-[View limited sample JSON](examples/far-52-204-21-sample.json)
-
-**Purchase:**  
-https://firststeptechnologyllc.com/product/cmmc-level-1-compliance-as-code-rule-library/
+> **Note:** This repository does not contain the complete commercial rule libraries. It provides public documentation, examples, and supporting resources. Commercial products are available for purchase through the First Step Technology LLC website.
 
 ---
 
-### NIST SP 800-171 Rev. 2 Compliance-as-Code Rule Library
+# Product Portfolio
 
-**Price:** $550.00  
-**Status:** Available  
-**Format:** Digital Download  
-**Coverage:** All 110 requirements across 14 security requirement families
-
-This commercial rule library converts all NIST SP 800-171 Rev. 2 requirements into structured, machine-readable JSON.
-
-It is designed for:
-
-- Contractors preparing for CMMC Level 2
-- Organizations handling Controlled Unclassified Information
-- Security and compliance engineering teams
-- Developers integrating compliance into infrastructure-as-code
-- AI coding assistants and agents
-- CI/CD pipelines
-- GRC and internal assessment workflows
-
-The commercial package includes:
-
-- All 110 NIST SP 800-171 Rev. 2 requirements
-- Coverage across all 14 requirement families
-- A documented JSON structure
-- Machine-actionable instructions
-- Source provenance
-- Plain UTF-8 JSON
-- Instant digital delivery
-
-**Documentation:**  
-[View NIST SP 800-171 Rev. 2 documentation](docs/nist-sp-800-171-rev-2.md)
-
-**Public Sample:**  
-A limited public sample will be maintained in the `/examples` directory.
-
-**Purchase:**  
-https://firststeptechnologyllc.com/product/nist-800-171-rev-2-compliance-as-code-rule-library/
+| Product | Category | Coverage | Primary Audience | Status |
+|----------|----------|----------|------------------|--------|
+| **CMMC Level 1 Compliance-as-Code Rule Library** | Federal Contracting | 15 FAR 52.204-21 Basic Safeguarding Requirements | Small Businesses, Defense Contractors | ✅ Available |
+| **NIST SP 800-171 Rev. 2 Compliance-as-Code Rule Library** | Federal Contracting | 110 Security Requirements across 14 Requirement Families | Defense Contractors, Government Suppliers | ✅ Available |
+| **CCPA / CPRA Compliance-as-Code Rule Library** | Privacy | 27 California Privacy Law Sections | Privacy Teams, SaaS Providers | ✅ Available |
+| **HIPAA Security Rule Compliance-as-Code Rule Library** | Healthcare | 62 Administrative, Physical, and Technical Safeguards | Healthcare Organizations, Business Associates | ✅ Available |
+| **CMMC Level 2 Compliance-as-Code Rule Library** | Federal Contracting | 110 Security Requirements aligned with NIST SP 800-171 Rev. 2 | Defense Industrial Base (DIB) Contractors | ✅ Available |
+| **NIST AI RMF 1.0 Compliance-as-Code Rule Library** | AI Governance | 72 Subcategories across Govern, Map, Measure, and Manage | AI Governance, Risk, and Compliance Teams | ✅ Available |
+| **NIST Cybersecurity Framework (CSF) 2.0 Rule Library** | Cybersecurity | 106 Subcategories across Govern, Identify, Protect, Detect, Respond, and Recover | Security Programs, Enterprise Risk Teams | ✅ Available |
+| **NIST SP 800-53 Rev. 5 Core Controls Compliance-as-Code Rule Library** | Federal Cybersecurity | 324 Base Security Controls | Government Agencies, Enterprise Security Programs | ✅ Available |
 
 ---
 
-## Licensing
+# Delivery Format
 
-Standard purchases are licensed for single-organization internal use and represent the current product snapshot at the time of purchase.
+Each commercial rule library includes structured machine-readable content designed for automation and integration.
 
-The standard license does not permit:
+Typical rule attributes include:
 
-- Redistribution
-- Resale
-- Sublicensing
-- Public publication
-- Inclusion in competing commercial products
-- Transfer to unrelated organizations
+- Stable Control Identifier
+- Control Title
+- Plain-English Guidance
+- Agent-Ready Instructions
+- Framework Metadata
+- Version Information
+- Traceability Information
 
-Custom licensing, resale rights, redistribution rights, and enterprise use may be available through a separate written agreement.
+Commercial libraries are delivered as structured JSON suitable for:
 
----
-
-## Advisory Services
-
-First Step Technology LLC also provides:
-
-- CMMC and compliance advisory
-- NIST SP 800-171 readiness support
-- Governance, Risk & Compliance advisory
-- Compliance automation
-- Security program development
-- Third-party risk management
-- AI governance
-- Cloud security advisory
+- AI Coding Assistants
+- AI Governance Platforms
+- DevSecOps Pipelines
+- Continuous Compliance Programs
+- Internal Automation
+- Governance, Risk & Compliance (GRC) Platforms
+- Security Engineering Workflows
 
 ---
 
-## Important Notice
+# Product Documentation
 
-These products are reference and automation tools.
+Public documentation is available within this repository.
 
-They do not constitute legal advice, certification, regulatory approval, or a substitute for a formal CMMC or NIST SP 800-171 assessment.
-
-Organizations remain responsible for determining applicability, implementing safeguards, collecting evidence, and validating compliance.
+| Product | Documentation |
+|----------|---------------|
+| CMMC Level 1 | `docs/cmmc-level-1-far-52-204-21.md` |
+| NIST SP 800-171 Rev. 2 | `docs/nist-sp-800-171-rev-2.md` |
+| CCPA / CPRA | Planned |
+| HIPAA Security Rule | Planned |
+| CMMC Level 2 | Planned |
+| NIST AI RMF 1.0 | Planned |
+| NIST CSF 2.0 | Planned |
+| NIST SP 800-53 Rev. 5 | Planned |
 
 ---
 
-## Complete Product Catalog
+# Intended Use Cases
+
+Compliance-as-Code rule libraries are designed for organizations seeking to automate compliance activities across modern engineering environments.
+
+Example use cases include:
+
+- AI-assisted secure software development
+- Continuous compliance validation
+- Policy-as-Code initiatives
+- Infrastructure-as-Code validation
+- Governance, Risk & Compliance automation
+- Third-Party Risk Management
+- Internal security assessments
+- Regulatory evidence collection
+- Security engineering workflows
+
+---
+
+# Licensing
+
+Documentation and examples contained in this repository are publicly available under the repository license.
+
+Commercial Compliance-as-Code rule libraries remain proprietary products of First Step Technology LLC and are licensed separately.
+
+---
+
+# Purchase
+
+Complete product information, pricing, and licensing are available at:
 
 https://firststeptechnologyllc.com/compliance-as-code-compliance-automation/
+
+---
+
+© 2026 First Step Technology LLC. All Rights Reserved.
