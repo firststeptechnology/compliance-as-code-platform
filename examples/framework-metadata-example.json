@@ -1,0 +1,27 @@
+{
+  "framework": "NIST SP 800-53 Rev. 5",
+  "publisher": "National Institute of Standards and Technology",
+  "version": "Rev. 5",
+  "release_date": "2020-09-23",
+  "rule_count": 324,
+  "status": "active",
+  "license": "Commercial",
+  "website": "https://firststeptechnologyllc.com",
+  "documentation": "https://firststeptechnologyllc.com/compliance-as-code-compliance-automation/",
+  "supported_formats": [
+    "JSON",
+    "YAML",
+    "CSV"
+  ],
+  "tags": [
+    "cybersecurity",
+    "governance",
+    "grc",
+    "compliance"
+  ],
+  "maintainer": {
+    "organization": "First Step Technology LLC",
+    "website": "https://firststeptechnologyllc.com",
+    "email": "info@firststeptechnologyllc.com"
+  }
+}
