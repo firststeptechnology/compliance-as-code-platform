@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://firststeptechnologyllc.com/schemas/framework-metadata.schema.json",
+  "title": "Framework Metadata",
+  "description": "Public schema describing metadata for a Compliance-as-Code framework library.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "framework",
+    "publisher",
+    "version",
+    "release_date",
+    "rule_count",
+    "status",
+    "license"
+  ],
+  "properties": {
+    "framework": {
+      "type": "string",
+      "description": "Framework name."
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Publishing organization."
+    },
+    "version": {
+      "type": "string",
+      "description": "Framework version."
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Framework publication date."
+    },
+    "rule_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of rules contained in the library."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "draft",
+        "deprecated"
+      ]
+    },
+    "license": {
+      "type": "string",
+      "description": "Applicable license."
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "documentation": {
+      "type": "string",
+      "format": "uri"
+    },
+    "supported_formats": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "JSON",
+          "YAML",
+          "CSV",
+          "XML"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maintainer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "organization": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        }
+      }
+    }
+  }
+}
