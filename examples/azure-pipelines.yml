@@ -1,0 +1,44 @@
+trigger:
+  - main
+
+pr:
+  - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  pythonVersion: "3.12"
+
+steps:
+
+- task: UsePythonVersion@0
+  displayName: Use Python $(pythonVersion)
+  inputs:
+    versionSpec: $(pythonVersion)
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install jsonschema
+  displayName: Install Dependencies
+
+- script: |
+    python - <<'PYTHON'
+    import json
+    from jsonschema import validate
+
+    with open("docs/schemas/compliance-rule.schema.json", encoding="utf-8") as schema_file:
+        schema = json.load(schema_file)
+
+    with open("docs/examples/compliance-rule-example.json", encoding="utf-8") as example_file:
+        example = json.load(example_file)
+
+    validate(instance=example, schema=schema)
+
+    print("Compliance validation completed successfully.")
+    PYTHON
+  displayName: Validate Compliance Rule Example
+
+- script: |
+    echo "Compliance-as-Code validation complete."
+  displayName: Finish
