@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "framework": "NIST SP 800-53 Rev. 5",
+  "control_id": "AC-2",
+  "title": "Account Management",
+  "guidance": "Manage information system accounts throughout their lifecycle.",
+  "agent_instruction": "Verify documented account lifecycle procedures are implemented and periodically reviewed.",
+  "references": [
+    "NIST SP 800-53 Rev. 5"
+  ],
+  "tags": [
+    "access-control",
+    "identity",
+    "iam"
+  ],
+  "metadata": {
+    "family": "Access Control",
+    "version": "Rev. 5",
+    "status": "active",
+    "priority": "high",
+    "automation_ready": true
+  }
+}
