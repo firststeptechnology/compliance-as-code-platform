@@ -1,188 +1,162 @@
-# Compliance-as-Code
+# First Step Technology LLC Compliance-as-Code Platform
 
-> Machine-readable Compliance-as-Code libraries for cybersecurity, AI, DevSecOps, Governance, Risk & Compliance (GRC), and regulatory automation.
-
-Developed and maintained by **First Step Technology LLC**.
+Machine-readable compliance rule libraries designed for AI, DevSecOps, Governance, Risk & Compliance (GRC), cloud security, and enterprise compliance automation.
 
 ---
 
-## Repository Contents
+## Overview
 
-| Resource | Description |
-|----------|-------------|
-| 📖 README.md | Project overview |
-| 📚 docs/ | Framework documentation |
-| 🧪 examples/ | Sample Compliance-as-Code artifacts |
-| 📦 CATALOG.md | Commercial product catalog |
-| ❓ FAQ.md | Frequently asked questions |
-| 🗺️ ROADMAP.md | Development roadmap |
-| 📋 CHANGELOG.md | Release history |
-| 🤝 CONTRIBUTING.md | Contribution guidelines |
-| 🛡️ SECURITY.md | Security vulnerability reporting |
-| 📄 DISCLAIMER.md | Legal disclaimer |
-| ⚖️ LICENSE.md | Repository licensing |
+The First Step Technology LLC Compliance-as-Code Platform transforms regulatory frameworks into structured, machine-readable rule libraries suitable for modern engineering and governance workflows.
+
+Rather than manually interpreting lengthy publications, organizations can consume standardized JSON objects that integrate directly into internal tooling, AI assistants, CI/CD pipelines, compliance platforms, and security operations.
+
+This public repository serves as the developer portal for the platform.
+
+It contains documentation, examples, schemas, roadmap information, and integration guidance.
+
+The complete commercial rule libraries are licensed separately.
 
 ---
 
-# Overview
+# Current Commercial Products
 
-Compliance-as-Code transforms cybersecurity and regulatory requirements into structured, machine-readable formats that can be integrated into software, automation pipelines, AI systems, and Governance, Risk & Compliance (GRC) platforms.
-
-Instead of manually interpreting regulatory documents, organizations can consume compliance requirements as reusable data.
-
-Typical use cases include:
-
-- AI coding assistants
-- DevSecOps pipelines
-- Governance, Risk & Compliance (GRC) platforms
-- Internal audit workflows
-- Security engineering
-- Third-Party Risk Management
-- Compliance automation
-- Continuous compliance monitoring
+| Product | Coverage | Status |
+|---|---:|:---:|
+| CMMC Level 1 Compliance-as-Code | 15 Requirements | ✅ |
+| CMMC Level 2 Compliance-as-Code | 110 Requirements | ✅ |
+| NIST SP 800-171 Rev. 2 | 110 Requirements | ✅ |
+| NIST SP 800-53 Rev. 5 Core Controls | 324 Controls | ✅ |
+| NIST Cybersecurity Framework (CSF) 2.0 | 106 Subcategories | ✅ |
+| NIST AI Risk Management Framework 1.0 | 72 Subcategories | ✅ |
+| HIPAA Security Rule | 62 Safeguards | ✅ |
+| CCPA / CPRA | 27 Privacy Sections | ✅ |
 
 ---
 
-## Commercial Rule Libraries
+# Repository Contents
 
-| Product | Coverage | Status | Documentation | Purchase |
-|---------|----------|--------|---------------|----------|
-| **CMMC Level 1 Compliance-as-Code Rule Library (FAR 52.204-21)** | All 15 Basic Safeguarding Requirements | ✅ Available | [View Documentation](docs/far-52-204-21.md) | [Purchase](https://firststeptechnologyllc.com/product/cmmc-level-1-compliance-as-code-rule-library/) |
-| **NIST SP 800-171 Rev. 2 Compliance-as-Code Rule Library** | All 110 Security Requirements across 14 Requirement Families | ✅ Available | [View Documentation](docs/nist-sp-800-171-rev-2.md) | [Purchase](https://firststeptechnologyllc.com/product/nist-800-171-rev-2-compliance-as-code-rule-library/) |
-| **Future Compliance-as-Code Products** | CMMC Level 2, NIST SP 800-53, NIST CSF 2.0, HIPAA, PCI DSS, ISO/IEC 27001, and more | 🚧 In Development | Planned | Coming Soon |
-
-> **Commercial Products:** Complete rule libraries are available for purchase through the First Step Technology LLC website. Public documentation and sample artifacts contained in this repository are intentionally limited and do not include the complete commercial rule libraries.
-
----
-
-# Features
-
-- Machine-readable JSON rule libraries
-- Human-readable documentation
-- AI-ready compliance data
-- Regulatory traceability
-- Automation-friendly schemas
-- Version-controlled framework data
-- DevSecOps integration guidance
-- Compliance workflow examples
-- Commercial licensing options
+```
+.
+├── docs/
+├── examples/
+├── CATALOG.md
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── DISCLAIMER.md
+├── FAQ.md
+├── LICENSE.md
+├── ROADMAP.md
+├── SECURITY.md
+└── SUPPORT.md
+```
 
 ---
 
-# Why Compliance-as-Code?
+# Documentation
 
-Traditional compliance guidance is published as lengthy documents intended for human interpretation.
+Documentation begins here:
 
-Modern engineering teams require compliance requirements that are:
+**➡ docs/README.md**
 
-- Structured
-- Searchable
-- Version-controlled
-- Machine-readable
-- Automatable
-- AI-compatible
-- Easy to integrate into development workflows
+Framework documentation includes:
 
-Compliance-as-Code bridges the gap between regulatory guidance and modern software engineering.
-
----
-
-# Repository Purpose
-
-This repository serves as the public documentation portal for the First Step Technology LLC Compliance-as-Code platform.
-
-It includes:
-
-- Framework documentation
-- Sample JSON
-- Educational examples
-- Product information
-- Project roadmap
-- Developer resources
-
-Commercial rule libraries are distributed separately.
+- CMMC Level 1
+- CMMC Level 2
+- NIST SP 800-171 Rev. 2
+- NIST SP 800-53 Rev. 5
+- NIST CSF 2.0
+- NIST AI RMF 1.0
+- HIPAA Security Rule
+- CCPA / CPRA
 
 ---
 
-# Commercial Products
+# Platform Capabilities
 
-First Step Technology LLC develops commercial Compliance-as-Code libraries supporting:
+The commercial libraries are designed to support:
 
-- Federal Contractors
-- Defense Contractors
-- Government Subcontractors
-- Managed Service Providers (MSPs)
-- Cybersecurity Consultants
-- Internal GRC Teams
-- Security Engineering Organizations
-- Software Development Teams
-
-Explore the complete Compliance-as-Code catalog:
-
-**https://firststeptechnologyllc.com/compliance-as-code-compliance-automation/**
-
----
-
-# Consulting Services
-
-First Step Technology LLC also provides professional services including:
-
-- Cybersecurity Advisory
-- Governance, Risk & Compliance (GRC)
 - Compliance Automation
-- CMMC Readiness
-- NIST SP 800-171 Readiness
-- Third-Party Risk Management
 - AI Governance
-- Cloud Security Advisory
-- Security Program Development
+- DevSecOps
+- Governance, Risk & Compliance (GRC)
+- Internal Audit
+- Continuous Compliance
+- Evidence Collection
+- Security Engineering
+- Policy-as-Code initiatives
+- AI-assisted assessments
 
 ---
 
-# Getting Started
+# Typical Rule Structure
 
-Explore the repository:
+Commercial rule libraries contain structured JSON similar to:
 
-- Review the documentation in `/docs`
-- Examine sample artifacts in `/examples`
-- Read the FAQ
-- View the product catalog
-- Follow the project roadmap
+```json
+{
+  "control_id": "AC-2",
+  "framework": "NIST SP 800-53 Rev. 5",
+  "title": "Account Management",
+  "guidance": "Manage information system accounts throughout their lifecycle.",
+  "agent_instruction": "Verify documented account lifecycle procedures are implemented."
+}
+```
 
----
-
-# Disclaimer
-
-This repository is provided for educational and informational purposes only.
-
-Nothing contained in this repository constitutes legal advice, regulatory guidance, certification, or an official interpretation of any law, regulation, or cybersecurity framework.
-
-First Step Technology LLC is not affiliated with, endorsed by, or sponsored by:
-
-- National Institute of Standards and Technology (NIST)
-- U.S. Department of Defense (DoD)
-- The Cyber AB
-- Any federal, state, or local government agency
-
-Organizations remain responsible for implementing and validating their own compliance programs.
+The commercial editions include additional proprietary metadata supporting automation, traceability, lifecycle management, and enterprise integrations.
 
 ---
 
-# License
+# Typical Integrations
 
-Repository documentation and examples are licensed as described in `LICENSE.md`.
+Organizations commonly integrate the platform with:
 
-Commercial Compliance-as-Code rule libraries are proprietary products of First Step Technology LLC.
+- GitHub Actions
+- GitLab CI/CD
+- Azure DevOps
+- Jenkins
+- Terraform
+- Python
+- Internal GRC Platforms
+- AI Assistants
+- Security Dashboards
+- Compliance Reporting Systems
 
 ---
 
-# Learn More
+# Repository Roadmap
 
-🌐 Company Website
+See:
+
+**ROADMAP.md**
+
+---
+
+# Product Catalog
+
+See:
+
+**CATALOG.md**
+
+---
+
+# Licensing
+
+This repository contains public documentation, schemas, and illustrative examples.
+
+Commercial Compliance-as-Code rule libraries remain proprietary products of First Step Technology LLC and are licensed separately.
+
+---
+
+# Support
+
+Questions, licensing inquiries, and partnership opportunities are available through First Step Technology LLC.
+
+Website:
 
 https://firststeptechnologyllc.com
 
-📦 Compliance-as-Code Product Catalog
+Compliance Platform:
 
 https://firststeptechnologyllc.com/compliance-as-code-compliance-automation/
 
