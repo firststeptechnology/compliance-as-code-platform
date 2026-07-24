@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://firststeptechnologyllc.com/schemas/evidence-record.schema.json",
+  "title": "Evidence Record",
+  "description": "Public schema describing evidence associated with a compliance rule or assessment.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "evidence_id",
+    "control_id",
+    "framework",
+    "evidence_type",
+    "status",
+    "collected_at"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string",
+      "description": "Unique evidence identifier."
+    },
+    "control_id": {
+      "type": "string",
+      "description": "Associated control identifier."
+    },
+    "framework": {
+      "type": "string",
+      "description": "Applicable compliance framework."
+    },
+    "evidence_type": {
+      "type": "string",
+      "enum": [
+        "document",
+        "policy",
+        "configuration",
+        "log",
+        "screenshot",
+        "interview",
+        "ticket",
+        "report",
+        "other"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "collected",
+        "validated",
+        "expired"
+      ]
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string",
+      "description": "Origin of the evidence."
+    },
+    "owner": {
+      "type": "string",
+      "description": "Evidence owner."
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description."
+    },
+    "artifacts": {
+      "type": "array",
+      "description": "Associated files or references.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "type",
+          "location"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "checksum": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
