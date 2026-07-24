@@ -1,4 +1,130 @@
-# FAR 52.204-21 Compliance-as-Code Rule Library
+# CMMC Level 1 Compliance-as-Code Rule Library
+
+> Machine-readable implementation of the 15 FAR 52.204-21 Basic Safeguarding Requirements.
+
+---
+
+# Overview
+
+The **CMMC Level 1 Compliance-as-Code Rule Library** transforms the 15 safeguarding requirements from **FAR 52.204-21** into structured, machine-readable JSON suitable for compliance automation, AI-assisted workflows, and security engineering.
+
+Rather than reading regulatory text manually, organizations can integrate standardized rule objects directly into internal tooling, governance processes, or development pipelines.
+
+---
+
+# Framework Information
+
+| Property | Value |
+|----------|-------|
+| Framework | Cybersecurity Maturity Model Certification (CMMC) Level 1 |
+| Regulatory Source | FAR 52.204-21 |
+| Requirements | 15 |
+| Format | Structured JSON |
+| Versioning | Supported |
+| Commercial Availability | Available |
+
+---
+
+# Intended Audience
+
+This library is designed for:
+
+- Defense contractors
+- Small businesses entering the Defense Industrial Base (DIB)
+- Managed Service Providers (MSPs)
+- Compliance consultants
+- Security engineers
+- Governance, Risk & Compliance (GRC) teams
+- Software developers building compliance automation
+
+---
+
+# Rule Structure
+
+Each rule is represented as a structured JSON object.
+
+Typical attributes include:
+
+- Control Identifier
+- Requirement Title
+- Plain-English Guidance
+- Agent-Ready Instruction
+- Framework Metadata
+- Version Information
+- Traceability Metadata
+
+The exact commercial schema contains additional proprietary fields used for automation and lifecycle management.
+
+---
+
+# Example (Illustrative)
+
+```json
+{
+  "control_id": "AC.L1-3.1.1",
+  "title": "Limit system access",
+  "guidance": "Limit information system access to authorized users, processes acting on behalf of authorized users, and devices.",
+  "agent_instruction": "Verify authentication and authorization controls are implemented before granting access."
+}
+```
+
+> The example above is illustrative and does not represent the complete commercial rule.
+
+---
+
+# Common Use Cases
+
+Organizations use this library to support:
+
+- Compliance automation
+- Internal assessments
+- Secure software development
+- AI-assisted compliance reviews
+- DevSecOps workflows
+- Policy development
+- Evidence collection
+- Readiness assessments
+
+---
+
+# Integration Opportunities
+
+The rule library is designed to integrate with workflows such as:
+
+- GitHub Actions
+- GitLab CI/CD
+- Azure DevOps
+- Jenkins
+- Custom Python automation
+- Internal GRC platforms
+- AI assistants
+- Compliance dashboards
+
+---
+
+# Commercial Licensing
+
+The complete Compliance-as-Code Rule Library is a commercial product provided by First Step Technology LLC.
+
+This repository includes public documentation and examples only.
+
+---
+
+# Related Products
+
+- CMMC Level 2 Compliance-as-Code Rule Library
+- NIST SP 800-171 Rev. 2 Compliance-as-Code Rule Library
+- NIST SP 800-53 Rev. 5 Core Controls Rule Library
+
+---
+
+# Learn More
+
+Additional information, licensing, and purchasing details are available through First Step Technology LLC.
+
+---
+
+© 2026 First Step Technology LLC. All Rights Reserved.# FAR 52.204-21 Compliance-as-Code Rule Library
 
 ## Machine-Readable Basic Safeguarding Requirements
 
