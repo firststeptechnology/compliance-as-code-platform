@@ -24,7 +24,7 @@ First Step Technology LLC offers:
 
 Website:
 
-https://firststeptechnology.com
+https://firststeptechnologyllc.com
 
 ## Bug Reports
 

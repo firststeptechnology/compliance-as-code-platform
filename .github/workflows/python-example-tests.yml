@@ -3,11 +3,11 @@ name: Python Example Tests
 on:
   push:
     paths:
-      - "docs/examples/**"
+      - "examples/**"
       - ".github/workflows/python-example-tests.yml"
   pull_request:
     paths:
-      - "docs/examples/**"
+      - "examples/**"
       - ".github/workflows/python-example-tests.yml"
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: docs/examples
+        working-directory: examples
 
     steps:
       - name: Checkout repository

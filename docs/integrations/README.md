@@ -76,28 +76,24 @@ Core principles include:
 
 ---
 
-# Directory Structure
+# Integration Guides
 
-```text
-docs/integrations/
-├── README.md
-├── github-actions.md
-├── python.md
-├── terraform.md
-├── azure-devops.md
-├── gitlab.md
-└── jenkins.md
-```
+- [GitHub Actions](github-actions.md)
+- [GitLab CI/CD](gitlab.md)
+- [Azure DevOps](azure-devops.md)
+- [Jenkins](jenkins.md)
+- [Python](python.md)
+- [Terraform](terraform.md)
 
 ---
 
 # Related Documentation
 
-- Documentation Home
-- API Documentation
-- JSON Schemas
-- Examples
-- Framework Documentation
+- [Documentation Home](../README.md)
+- [API Documentation](../api/README.md)
+- [JSON Schemas](../schemas/README.md)
+- [Examples](../../examples/README.md)
+- [Framework Documentation](../frameworks/README.md)
 
 ---
 

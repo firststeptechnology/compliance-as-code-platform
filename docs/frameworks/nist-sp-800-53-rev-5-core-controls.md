@@ -129,7 +129,7 @@ This repository contains public documentation, schemas, and illustrative example
 
 ## Related Products
 
-- [NIST SP 800-171 Revision 2](nist-sp-800-171-rev-2.md)
+- [NIST SP 800-171 Revision 2](nist-sp-800-171.md)
 - [NIST Cybersecurity Framework 2.0](nist-csf-2-0.md)
 - [NIST AI Risk Management Framework 1.0](nist-ai-rmf-1-0.md)
 - [CMMC Level 2](cmmc-level-2.md)

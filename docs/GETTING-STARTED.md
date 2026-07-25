@@ -68,7 +68,7 @@ docs/schemas/
 Example files are located in:
 
 ```
-docs/examples/
+examples/
 ```
 
 Install dependencies:

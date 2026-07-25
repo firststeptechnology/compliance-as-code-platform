@@ -1,0 +1,16 @@
+# CODEOWNERS for First Step Technology LLC Compliance-as-Code Platform
+#
+# Order matters: rules lower in this file take precedence over rules
+# earlier in the file when a path matches more than one pattern.
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repository
+* @firststeptechnology
+
+# Directory-specific ownership
+/.github/ @firststeptechnology
+/docs/ @firststeptechnology
+/examples/ @firststeptechnology
+/src/ @firststeptechnology
+/tests/ @firststeptechnology
+/scripts/ @firststeptechnology

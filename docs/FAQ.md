@@ -22,7 +22,15 @@ This public repository contains:
 - API Documentation
 - Developer Resources
 
-Commercial rule libraries are not included.
+Commercial rule libraries are not included in this repository.
+
+---
+
+# Are these official government publications?
+
+No.
+
+First Step Technology LLC is an independent cybersecurity company. These products are derived from publicly available regulations and standards but are not affiliated with, endorsed by, or published by any government agency.
 
 ---
 
@@ -39,15 +47,28 @@ Current commercial products include:
 - HIPAA Security Rule
 - CCPA / CPRA
 
+See the [Roadmap](../ROADMAP.md) for planned future frameworks.
+
 ---
 
-# Are the complete rule libraries available?
+# Are the complete rule libraries available in this repository?
 
 No.
 
-The commercial rule libraries are proprietary products of First Step Technology LLC and are licensed separately.
+The commercial rule libraries are proprietary products of First Step Technology LLC and are licensed separately. This repository contains only public documentation and examples.
 
-This repository contains only public documentation and examples.
+---
+
+# Why use machine-readable JSON instead of PDFs?
+
+Machine-readable formats make it easier to:
+
+- Automate compliance checks
+- Integrate controls into software
+- Build dashboards
+- Search and filter requirements
+- Support DevSecOps pipelines
+- Feed AI assistants and internal tools
 
 ---
 
@@ -65,6 +86,7 @@ The platform is intended for:
 - AI Developers
 - Solution Architects
 - Managed Security Service Providers (MSSPs)
+- Defense contractors and government subcontractors
 
 ---
 
@@ -107,6 +129,46 @@ Commercial API services are planned for future releases.
 Yes.
 
 The platform is designed to support AI-assisted compliance workflows, automated assessments, intelligent search, evidence management, reporting, and governance automation.
+
+---
+
+# Do these products guarantee compliance?
+
+No.
+
+These products are designed to support compliance activities but do not guarantee regulatory or contractual compliance. Organizations remain responsible for implementing, validating, and maintaining their own compliance programs.
+
+---
+
+# Can I redistribute the rule libraries?
+
+No.
+
+Commercial rule libraries are proprietary products owned by First Step Technology LLC. Redistribution, resale, sublicensing, or commercial reuse requires a separate written agreement.
+
+---
+
+# Can I purchase enterprise licensing?
+
+Yes.
+
+Enterprise licensing, custom licensing, consulting services, and redistribution agreements are available. Visit [firststeptechnologyllc.com](https://firststeptechnologyllc.com).
+
+---
+
+# Does First Step Technology provide consulting services?
+
+Yes. Services include:
+
+- CMMC Readiness
+- Governance, Risk & Compliance (GRC)
+- AI Governance
+- Compliance Automation
+- Security Program Development
+- Risk Assessments
+- Third-Party Risk Management
+- Cloud Security Advisory
+- Cybersecurity Strategy
 
 ---
 

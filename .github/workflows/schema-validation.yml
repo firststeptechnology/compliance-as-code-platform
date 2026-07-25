@@ -4,11 +4,11 @@ on:
   push:
     paths:
       - "docs/schemas/**"
-      - "docs/examples/**"
+      - "examples/**"
   pull_request:
     paths:
       - "docs/schemas/**"
-      - "docs/examples/**"
+      - "examples/**"
 
 jobs:
   validate-schemas:
@@ -26,13 +26,13 @@ jobs:
 
       - name: Verify example files exist
         run: |
-          test -f docs/examples/compliance-rule-example.json
-          test -f docs/examples/framework-metadata-example.json
-          test -f docs/examples/evidence-record-example.json
+          test -f examples/compliance-rule-example.json
+          test -f examples/framework-metadata-example.json
+          test -f examples/evidence-record-example.json
 
       - name: Validate JSON syntax
         run: |
-          find docs/schemas docs/examples -name "*.json" -print0 | while IFS= read -r -d '' file; do
+          find docs/schemas examples -name "*.json" -print0 | while IFS= read -r -d '' file; do
             echo "Checking $file"
             python -m json.tool "$file" > /dev/null
           done

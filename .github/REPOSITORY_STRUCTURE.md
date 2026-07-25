@@ -10,14 +10,23 @@ This document describes the high-level organization of the First Step Technology
 .
 ├── .github/
 ├── docs/
+├── examples/
+├── src/
+├── tests/
+├── scripts/
+├── assets/
+├── CATALOG.md
 ├── CHANGELOG.md
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
-├── LICENSE
+├── DISCLAIMER.md
+├── FAQ.md
+├── LICENSE.md
 ├── README.md
+├── ROADMAP.md
 ├── SECURITY.md
-├── SUPPORTED_VERSIONS.md
-└── ...
+├── SUPPORT.md
+└── SUPPORTED_VERSIONS.md
 ```
 
 ---
@@ -63,7 +72,7 @@ Contains:
 
 ---
 
-# docs/examples
+# examples
 
 Contains sample implementations including:
 
@@ -74,6 +83,8 @@ Contains sample implementations including:
 - GitLab
 - Jenkins
 - JSON examples
+
+Note: `examples/` is a repository-root-level directory, not nested under `docs/`.
 
 ---
 

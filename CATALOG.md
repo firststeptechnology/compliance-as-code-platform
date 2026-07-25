@@ -55,14 +55,14 @@ Public documentation is available within this repository.
 
 | Product | Documentation |
 |----------|---------------|
-| CMMC Level 1 | `docs/cmmc-level-1-far-52-204-21.md` |
-| NIST SP 800-171 Rev. 2 | `docs/nist-sp-800-171-rev-2.md` |
-| CCPA / CPRA | Planned |
-| HIPAA Security Rule | Planned |
-| CMMC Level 2 | Planned |
-| NIST AI RMF 1.0 | Planned |
-| NIST CSF 2.0 | Planned |
-| NIST SP 800-53 Rev. 5 | Planned |
+| CMMC Level 1 | [docs/frameworks/cmmc-level-1.md](docs/frameworks/cmmc-level-1.md) |
+| NIST SP 800-171 Rev. 2 | [docs/frameworks/nist-sp-800-171.md](docs/frameworks/nist-sp-800-171.md) |
+| CCPA / CPRA | [docs/frameworks/ccpa-cpra.md](docs/frameworks/ccpa-cpra.md) |
+| HIPAA Security Rule | [docs/frameworks/hipaa-security-rule.md](docs/frameworks/hipaa-security-rule.md) |
+| CMMC Level 2 | [docs/frameworks/cmmc-level-2.md](docs/frameworks/cmmc-level-2.md) |
+| NIST AI RMF 1.0 | [docs/frameworks/nist-ai-rmf-1-0.md](docs/frameworks/nist-ai-rmf-1-0.md) |
+| NIST CSF 2.0 | [docs/frameworks/nist-csf-2-0.md](docs/frameworks/nist-csf-2-0.md) |
+| NIST SP 800-53 Rev. 5 | [docs/frameworks/nist-sp-800-53-rev-5-core-controls.md](docs/frameworks/nist-sp-800-53-rev-5-core-controls.md) |
 
 ---
 

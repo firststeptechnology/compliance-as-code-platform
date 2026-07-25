@@ -8,16 +8,53 @@ Commercial products include additional metadata, validation logic, enrichment, a
 
 ---
 
-# Available Examples
+# Contents
 
-| Example | Description |
-|---------|-------------|
-| JSON Rule | Basic Compliance-as-Code rule object |
-| Framework Metadata | Framework information document |
-| Evidence Record | Sample evidence object |
-| Python | Read and process rule objects |
-| GitHub Actions | Validate rule libraries |
-| REST API | Example API response |
+| File | Purpose |
+|------|---------|
+| compliance-rule-example.json | Example compliance rule |
+| framework-metadata-example.json | Example framework metadata |
+| evidence-record-example.json | Example evidence record |
+| compliance-report.md | Sample generated report |
+| python-example.py | Read a compliance rule |
+| validate-rule.py | Validate JSON against the schema |
+| search-controls.py | Search rule data |
+| generate-report.py | Generate a Markdown report |
+| requirements.txt | Python dependencies |
+| github-actions-example.yml | GitHub Actions workflow |
+| azure-pipelines.yml | Azure DevOps pipeline |
+| gitlab-ci.yml | GitLab CI pipeline |
+| Jenkinsfile | Jenkins pipeline |
+| terraform-example.tf | Terraform integration |
+| api-response-example.json | Example REST API response |
+
+---
+
+# Getting Started
+
+Install the required dependency:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the validator:
+
+```bash
+python validate-rule.py
+```
+
+Search for a control:
+
+```bash
+python search-controls.py
+```
+
+Generate a report:
+
+```bash
+python generate-report.py
+```
 
 ---
 
@@ -80,16 +117,12 @@ The commercial Compliance-as-Code Platform includes:
 
 # Related Documentation
 
-- Documentation Home
-- JSON Schemas
-- Framework Documentation
-- Product Catalog
-- Platform Roadmap
+- [Documentation Home](../docs/README.md)
+- [JSON Schemas](../docs/schemas/README.md)
+- [Framework Documentation](../docs/frameworks/README.md)
+- [Product Catalog](../CATALOG.md)
+- [Platform Roadmap](../ROADMAP.md)
 
 ---
 
-© 2026 First Step Technology LLC. All rights reserved.# Examples
-
-This directory contains sample machine-readable compliance artifacts intended to demonstrate the structure and capabilities of Compliance-as-Code libraries.
-
-Commercial rule libraries contain substantially more content than the examples published here.
+© 2026 First Step Technology LLC. All rights reserved.

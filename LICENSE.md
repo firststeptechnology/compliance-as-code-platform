@@ -12,4 +12,4 @@ No permission is granted to reproduce, redistribute, sublicense, or commercially
 
 For commercial licensing inquiries:
 
-https://firststeptechnology.com
+https://firststeptechnologyllc.com
