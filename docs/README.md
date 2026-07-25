@@ -6,6 +6,12 @@ This documentation explains the commercial Compliance-as-Code rule libraries, in
 
 ---
 
+# Platform Architecture
+
+- [Version 1.0 Architecture](ARCHITECTURE-V1.md) — Python package design, rule engine, REST API, CLI, and AI integration layer for the upcoming platform build
+
+---
+
 # Framework Documentation
 
 | Framework | Documentation |
