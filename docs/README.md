@@ -30,26 +30,28 @@ This documentation explains the commercial Compliance-as-Code rule libraries, in
 # Repository Structure
 
 ```text
-docs/
-├── README.md
-├── frameworks/
-├── integrations/
-├── schemas/
-├── api/
+compliance-as-code-platform/
+├── docs/
+│   ├── README.md
+│   ├── frameworks/
+│   ├── integrations/
+│   ├── schemas/
+│   └── api/
 └── examples/
 ```
 
 ---
 
+# Available Documentation
+
+- [Integration Guides](integrations/README.md) — GitHub Actions, GitLab CI/CD, Azure DevOps, Jenkins, Python, Terraform
+- [JSON Schemas](schemas/README.md)
+- [API Documentation](api/README.md)
+- [Examples](../examples/README.md) — including CI/CD pipeline configs, Terraform, and REST API response samples
+
 # Planned Documentation
 
-- Integration Guides
-- JSON Schemas
-- AI Assistant Examples
-- API Documentation
-- CI/CD Examples
-- Terraform Examples
-- GitHub Actions Examples
+- AI Assistant Integration Examples (dedicated walkthroughs for feeding rule libraries into AI coding agent system prompts/context)
 
 ---
 
